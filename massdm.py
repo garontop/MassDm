@@ -24,7 +24,7 @@ async def on_ready():
 ''')
  fuck = input(f"{Fore.GREEN}Select>>")
  if fuck == '1':
-  input2 = input(f"{Fore.GREEN}What Should I Send?>>")
+  input2 = input(f"{Fore.GREEN}What Should I Send?>>you r my niglet")
   for user in client.user.friends:                
    await user.send(f"{input2}")
    print(f"{Fore.GREEN}[+] Sent{Fore.WHITE} {input2} To {user}")
